@@ -1,0 +1,206 @@
+.banner{
+    position: relative;
+    width: 1366px;
+    height: 250px;
+    margin: 0 auto;
+    background: url("../img/team-banner.png") no-repeat;
+}
+.show-title{
+    width: 300px;
+    height: 80px;
+    margin: 60px auto;
+}
+
+/*team-person*/
+.team-person{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+.team-person dl{
+    width: 100%;
+    display: flew;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.team-person dl dt{
+    position: relative;
+    width: 238px;
+}
+.person-name{
+    position: absolute;
+    left: 25px;
+    bottom: 20px;
+}
+.person-desc{
+    position: absolute;
+    left: 40px;
+    bottom: 20px;
+}
+.team-person ul {
+    width: 750px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.team-person ul li{
+    position: relative;
+    width: 236px;
+    height: 228px;
+    background: url("../img/team-1.png")no-repeat;
+    border: 1px solid #e4e4e4;
+    margin-bottom: 14px;
+}
+.his-name{
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    width: 85px;
+}
+.his-name-e{
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 15px;
+}
+.his-name-c{
+    font-size: 20px;
+    margin-left: 15px;
+}
+.his-line{
+    width: 60px;
+    margin-left: 15px;
+    margin-top: 70px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.his-name span{
+    position: absolute;
+    left: 15px;
+    top: 111px;
+    display: inline-block;
+    padding-top: 2px;
+    width: 30px;
+    border-bottom: 1px solid #2b6c8c;
+}
+.his-card{
+    color: #e4e4e4;
+    margin-top: 10px;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.team-person2{
+    position: relative;
+    width: 1000px;
+    height: 476px;
+    margin: 83px auto 0;
+}
+.team-person2 dl{
+    position: absolute;
+    right: 0px;
+    top: 0;
+    width: 238px;
+    display: flew;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.team-person2 ul {
+    width: 750px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.team-person2 ul li{
+    position: relative;
+    width: 236px;
+    height: 228px;
+    background: url("../img/team-1.png")no-repeat;
+    border: 1px solid #e4e4e4;
+    margin-bottom: 14px;
+}
+.team-person ul li:nth-child(2),.team-person2 ul li:nth-child(2){
+    background: url("../img/team-2.png")no-repeat;
+}
+.team-person ul li:nth-child(3),.team-person2 ul li:nth-child(3){
+    background: url("../img/team-3.png")no-repeat;
+}
+.team-person ul li:nth-child(4),.team-person2 ul li:nth-child(4){
+    background: url("../img/team-4.png")no-repeat;
+}
+.team-person ul li:nth-child(5),.team-person2 ul li:nth-child(5){
+    background: url("../img/team-5.png")no-repeat;
+}
+.team-person ul li:nth-child(6),.team-person2 ul li:nth-child(6){
+    background: url("../img/team-6.png")no-repeat;
+}
+.team-person ul li:hover{
+    box-shadow: 1px 1px 9px #2b6c8c;
+}
+.team-person2 ul li:hover{
+    box-shadow: 1px 1px 9px #2b6c8c;
+}
+
+/*team-main*/
+.team-main{
+    width: 1200px;
+    margin: 100px auto 0;
+    background: url("../img/图层 781.png") no-repeat;
+}
+
+/*team-prize*/
+.team-prize{
+    width: 1016px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.prize{
+    position: relative;
+    width: 456px;
+    height: 150px;
+}
+.prize-img {
+    width: 114px;
+    height: 114px;
+   border: 10px solid #e5e5e5;
+    border-radius: 50%;
+}
+.prize-right{
+    position: absolute;
+    left: 170px;
+    top: 10px;
+}
+.prize-name{
+    font-size: 40px;
+    color: #767676;
+}
+.prize-desc{
+    margin-top: 20px;
+    width: 278px;
+    color: #767676;
+}
+.team-point{
+    width: 120px;
+    margin: 34px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.point-t{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #e5e5e5;
+    color: #2b6c8c;
+    text-align: center;
+    line-height: 25px;
+}
+.point-t:hover{
+    color: white;
+    background-color: #2b6c8c;
+}

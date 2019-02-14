@@ -1,0 +1,326 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 960035 */
+    src: url('http://at.alicdn.com/t/font_960035_ta1jk7e1bym.eot');
+    src: url('http://at.alicdn.com/t/font_960035_ta1jk7e1bym.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_960035_ta1jk7e1bym.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_960035_ta1jk7e1bym.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_960035_ta1jk7e1bym.svg#iconfont') format('svg');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.box{
+    width: 1366px;
+    margin: 0 auto;
+}
+.nav{
+    height: 80px;
+    background-color: #FAFAFA;
+}
+.nav-left{
+    height: 60px;
+    width: 100px;
+    margin-left: 83px;
+    font-size: 20px;
+    color: #799CB1;
+    float: left;
+}
+.nav-left p{
+    padding-top: 10px;
+    width: 50px;
+    height: 50px;
+}
+.nav-right{
+    float: right;
+    position: relative;
+    margin-right: 110px;
+    width: 800px;
+    height: 80px;
+    font-size: 14px;
+}
+.nav-right ul{
+    display: flex;
+    justify-content: space-around;
+    width: 570px;
+    height: 80px;
+    /*line-height: 80px;*/
+    float: left;
+}
+.nav-right ul li{
+    position: relative;
+    width: 80px;
+    height: 40px;
+    /*border: 1px solid #799CB1;*/
+    text-align: center;
+    margin-top: 20px;
+}
+.nav-right ul li a{
+    text-decoration: none;
+    line-height: 40px;
+    color: #000;
+}
+.arrow-n{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    border-top: 1px solid #799CB1;
+    border-left: 1px solid #799CB1;
+}
+.arrow-v{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 5px;
+    height: 5px;
+    border-bottom: 1px solid #799CB1;
+    border-right: 1px solid #799CB1;
+}
+.nav-right ul li:hover a{
+    color: #799CB1;
+}
+.nav-right ul li:hover .arrow-n,.nav-right ul li:hover .arrow-v{
+    display: block;
+}
+.nav-right input{
+    width: 170px;
+    height: 24px;
+    border-radius: 20px;
+    border: 1px solid #799CB1;
+    outline: none;
+    float: right;
+    margin-top: 27px;
+    margin-right: 50px;
+}
+.search{
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 32px;
+    right: 60px;
+    font-family: 'iconfont';
+}
+
+/*banner*/
+.summary-nav{
+    position: absolute;
+    bottom: -35px;
+    left: 83px;
+    width: 1200px;
+    height: 70px;
+    background-color: rgb(43,108,140);
+}
+.summary-nav-left{
+    position: relative;
+    width: 315px;
+    height: 70px;
+    background-color: black;
+    color: white;
+    border-right: 4px solid rgb(245,200,19);
+}
+.summary-nav-left span{
+    display: inline-block;
+    height: 40px;
+}
+.line1{
+    position: absolute;
+    top: 15px;
+    left: 24px;
+    height: 30px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 2px;
+    width: 0;
+}
+.summary-nav-name{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    width: 50px;
+    font-size: 14px;
+}
+.pointers{
+    position: absolute;
+    left: 120px;
+    top: 30px;
+    width: 15px;
+    height: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.pointer{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: white;
+}
+.line2{
+    position: absolute;
+    top: 15px;
+    left: 155px;
+    height: 30px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 2px;
+    width: 0;
+}
+.summary-nav-desc{
+    position: absolute;
+    top: 10px;
+    left: 160px;
+    font-size: 14px;
+}
+.summary-nav-right{
+    position: absolute;
+    z-index: 1;
+    bottom: -70px;
+    right: 40px;
+    width: 260px;
+    height: 250px;
+}
+.summary-nav-color{
+    position: absolute;
+    z-index: 2;
+    bottom: -100px;
+    right: 200px;
+    width: 140px;
+    height: 140px;
+    border-radius: 5px;
+    background-color: rgba(95, 115, 4, 0.54);
+}
+
+/*footer*/
+.footer{
+    margin-top: 80px;
+    width: 1366px;
+    height: 520px;
+    background: rgb(35,89,117);
+    overflow: hidden;
+}
+.map{
+    position: relative;
+    margin: 70px auto;
+    width: 1000px;
+    height: 160px;
+    background: url("../img/map.png")no-repeat;
+}
+.map-img{
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    width: 30px;
+    height: 40px;
+}
+.map-mess{
+    position: absolute;
+    top: 40px;
+    left: 360px;
+    width: 296px;
+    height: 70px;
+    border-radius: 8px;
+    background: rgb(35,89,117);
+    font-size: 14px;
+    color: white;
+}
+.map-mess p{
+    padding-left: 40px;
+}
+.map-p{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.map-next{
+    position: relative;
+    width: 1000px;
+    margin: 40px auto;
+}
+.input-box{
+    width: 400px;
+    height: 180px;
+}
+.in-name{
+    width: 164px;
+    height: 30px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-right: 11px;
+    outline: none;
+    border: 0;
+    color: rgba(128, 128, 128, 0.6);
+    padding-left: 20px;
+}
+.in-message{
+    width: 364px;
+    height: 126px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: rgba(128, 128, 128, 0.6);
+    outline: none;
+    resize: none;
+}
+.more-pl{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 550px;
+    height: 190px;
+    color: white;
+}
+.more-pl-two{
+    font-size: 10px;
+}
+.more-pl-one{
+    font-weight: bold;
+    font-size: 14px;
+}
+.more-pl ul{
+    margin-top: 15px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.more-pl ul p{
+    font-size: 14px;
+    line-height: 35px;
+}
+.more-pl ul p:hover{
+    color: #AFC4D2;
+}
+.more-pl-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 180px;
+}
+.more-pl-img{
+    margin-top: 35px;
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.more-pl-desc{
+    width: 180px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 45px;
+}
+
+.last{
+    width: 1366px;
+    height: 56px;
+    background-color: rgba(25,25,25);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+    text-align: center;
+    overflow: hidden;
+}
+.last p{
+    margin-top: 10px;
+}

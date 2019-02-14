@@ -1,0 +1,334 @@
+.banner{
+    position: relative;
+    width: 1366px;
+    height: 250px;
+    margin: 0 auto;
+    background: url("../img/show-banner.png") no-repeat;
+}
+.show-title{
+    width: 300px;
+    height: 80px;
+    margin: 60px auto;
+}
+
+/*show-case*/
+.show-case{
+    position: relative;
+    width: 1004px;
+    height: 843px;
+    margin: 0 auto;
+}
+
+.show-case-big{
+    position: relative;
+    width: 470px;
+    height: 442px;
+    background: url("../img/jask.png") no-repeat;
+    border-bottom: 1px solid #e4e4e4;
+}
+.pic{
+    position: absolute;
+    bottom: 64px;
+    left: 28px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 1px 8px 5px #2b6c8c;
+}
+.per-name{
+    position: absolute;
+    width: 340px;
+    bottom: 64px;
+    left: 118px;
+    font-size: 14px;
+    border-bottom: 1px solid #e4e4e4;
+    line-height: 30px;
+}
+.per-name span:first-child{
+    color: #e4e4e4;
+}
+.per-name span:last-child{
+    color: #2b6c8c;
+    font-weight: bold;
+}
+.per-line{
+    position: absolute;
+    bottom: 64px;
+    left: 118px;
+    width: 90px;
+    border-bottom: 1px solid red;
+}
+.show-case-big p{
+    position: absolute;
+    bottom: 10px;
+    left: 118px;
+    font-size: 14px;
+    width: 280px;
+}
+.per-squre{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #e4e4e4;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2b6c8c;
+}
+
+.show-case-small{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 500px;
+    height: 345px;
+    margin-left: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+.show-case-smalls{
+    position: relative;
+    width: 230px;
+    height: 345px;
+    border-right: 1px solid #e4e4e4;
+    background: url("../img/case-smalls.png") no-repeat;
+}
+.pic-small{
+    position: absolute;
+    bottom: 70px;
+    left: 25px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 1px 8px 5px #2b6c8c;
+}
+.show-case-small span{
+    position: absolute;
+    bottom: 60px;
+    left: 27px;
+    display: inline-block;
+    color: #2b6c8c;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 60px;
+    width: 190px;
+    text-align: right;
+    border-bottom: 1px solid #e4e4e4;
+}
+.show-case-small p{
+    position: absolute;
+    bottom: 10px;
+    left: 27px;
+    width: 190px;
+    font-size: 14px;
+}
+.show-case-smalls2{
+    position: relative;
+    width: 230px;
+    height: 345px;
+    border-right: 1px solid #e4e4e4;
+    background: url("../img/case-smalls2.png") no-repeat;
+}
+.show-case-small-next{
+    position: absolute;
+    top: 474px;
+    left: 0;
+    width: 500px;
+    height: 345px;
+    display: flex;
+    justify-content: space-between;
+}
+.show-case-small-next span{
+    position: absolute;
+    bottom: 60px;
+    left: 27px;
+    display: inline-block;
+    color: #2b6c8c;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 60px;
+    width: 190px;
+    text-align: right;
+    border-bottom: 1px solid #e4e4e4;
+}
+.show-case-small-next p{
+    position: absolute;
+    bottom: 10px;
+    left: 27px;
+    width: 190px;
+    font-size: 14px;
+}
+
+.show-case-big-next{
+    position: absolute;
+    bottom: 0px;
+    left: 542px;
+    width: 470px;
+    height: 442px;
+}
+.show-case-big-next .show-case-big{
+    background: url("../img/big-next.png") no-repeat;
+}
+
+/*he-say*/
+.he-say{
+    margin-top: 45px;
+    position: relative;
+    width: 1366px;
+    height: 365px;
+    background: url("../img/man.png")no-repeat;
+}
+.he-say-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 710px;
+    height: 365px;
+}
+.say-c{
+    color: white;
+    font-size: 14px;
+    margin-top: 50px;
+    margin-left: 45px;
+}
+.say-e{
+    color: white;
+    margin-top: 20px;
+    font-size: 30px;
+    width: 331px;
+    margin-left: 45px;
+}
+.say-bold{
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+.say-red{
+    color: red;
+    margin-left: 45px;
+    margin-top: 60px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.say-red span{
+    display: inline-block;
+    width: 30px;
+    border-bottom: 2px solid red;
+    margin-left: 5px;
+}
+
+/*show-name*/
+.show-name{
+    width: 480px;
+    height: 20px;
+    margin: 0 auto;
+}
+.show-name ul{
+    width: 480px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.du{
+    margin-top: 9px;
+    width: 40px;
+    height: 4px;
+    background-color: rgba(121, 156, 177, 0.6);
+    border-left: 20px solid #184f6b;
+}
+.show-desc{
+    width: 1000px;
+    margin: 46px auto;
+}
+.show-desc ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.show-desc ul li{
+    position: relative;
+    margin-top: 20px;
+}
+.word{
+    position: absolute;
+    top: 185px;
+    left: 22px;
+}
+.word-name{
+    font-size: 20px;
+}
+.word-desc{
+    color: #a7a7a7;
+}
+.word-man{
+    margin-top: 38px;
+    margin-left: 52px;
+    color: #a7a7a7;
+}
+.word-man span{
+    font-weight: bold;
+    color: #2b6c8c;
+}
+.word-man-img{
+    position: absolute;
+    bottom: 10px;
+    left: 22px;
+}
+.word-more{
+    position: absolute;
+    bottom: 25px;
+    right: 22px;
+    width: 25px;
+    height: 25px;
+    background-color: #000;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 25px;
+}
+
+.show-point{
+    width: 325px;
+    height: 30px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.arrow-left{
+    width: 20px;
+    height: 23px;
+    background: url("../img/arrow-left.png")no-repeat;
+}
+.arrow-right{
+    width: 20px;
+    height: 23px;
+    background: url("../img/arrow-right.png")no-repeat;
+}
+.prointss-s{
+    width: 24px;
+    height: 24px;
+    background-color: #e5e5e5;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    font-size: 12px;
+    color: #184f6b;
+}
+.prointss-dd{
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    color: #184f6b;
+}
+.prointss-s:hover{
+    background-color: #184f6b;
+    color: white;
+}
+

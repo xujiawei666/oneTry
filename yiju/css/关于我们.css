@@ -1,0 +1,483 @@
+.banner{
+    position: relative;
+    width: 1366px;
+    height: 250px;
+    margin: 0 auto;
+    background: url("../img/us-banner.png") no-repeat;
+}
+.show-title{
+    width: 300px;
+    height: 80px;
+    margin: 60px auto;
+}
+
+/*us-main*/
+ .us-main{
+     position: relative;
+     width: 1366px;
+     height: 375px;
+     margin: 0 auto;
+     background: url("../img/us-company.png")no-repeat;
+ }
+ .us-time{
+     position: absolute;
+     top: 20px;
+     left: 165px;
+     color: white;
+ }
+ .nian{
+     font-size: 70px;
+ }
+ .nian-desc{
+     position: absolute;
+     right: 20px;
+     text-align: center;
+     background-color: #184f6b;
+ }
+ .one{
+     top: 88px;
+     width: 30px;
+ }
+ .two{
+     top: 108px;
+     width: 90px;
+ }
+ .us-main-text{
+     width: 570px;
+     position: absolute;
+     top: 0;
+     left: 395px;
+ }
+ .us-line{
+     position: relative;
+     margin-top: 20px;
+     border-bottom: 2px solid #799CB1;
+ }
+.us-line2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 120px;
+    border-bottom: 2px solid #f5c813;
+}
+.us-main-name{
+    margin-top: 22px;
+    font-size: 20px;
+    color: #717171;
+}
+.us-main-desc{
+    margin-top: 16px;
+    color: #717171;
+}
+.us-main-end{
+    margin-top: 12px;
+    font-size: 12px;
+    color: #999999;
+}
+.us-main-more{
+    margin-top: 10px;
+}
+.us-main-more p{
+    width: 98px;
+    height: 27px;
+    border: 2px solid #000;
+    text-align: center;
+    line-height: 27px;
+    font-size: 20px;
+    float: left;
+    border-right: 0;
+}
+.us-main-more span{
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    background-color: #245974;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 27px;
+    border: 2px solid #000;
+    float: left;
+}
+.us-over{
+    position: absolute;
+    right: 0;
+    bottom: -75px;
+}
+.us-over-line{
+    position: absolute;
+    top: 5px;
+    right: 87px;
+    width: 160px;
+    border-bottom: 8px solid #f5c813;
+}
+.us-over-line2{
+    position: absolute;
+    top: 10px;
+    right: 239px;
+    height: 260px;
+    border-left: 8px solid #f5c813;
+}
+
+/*us-star*/
+.us-star{
+    position: relative;
+    width: 1000px;
+    height: 302px;
+    background-color: black;
+    margin: 0 auto;
+}
+.star-img{
+    position: absolute;
+    top: 45px;
+    right: 40px;
+    overflow: hidden;
+    height: 256px;
+}
+.us-star-text{
+    position: absolute;
+    top: 50px;
+    left: 196px;
+    width: 260px;
+    height: 120px;
+    color: white;
+}
+.star-name span{
+    font-weight: bold;
+
+}
+.star-name{
+    font-size: 30px;
+}
+.star-desc{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.star-more{
+    font-size: 31px;
+}
+.star-circle{
+    position: absolute;
+    top: 50px;
+    left:437px;
+    width: 5px;
+    height: 5px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+.star-line{
+    position: absolute;
+    bottom: 0;
+    left: -15px;
+    height: 280px;
+    border-right: 14px solid #184f6b;
+}
+.star-line2{
+    position: absolute;
+    bottom: -12px;
+    left: -15px;
+    width: 160px;
+    border-bottom: 14px solid #184f6b;
+}
+.star-new{
+    position: absolute;
+    bottom: -60px;
+    left: 175px;
+    font-size: 100px;
+    font-weight: bold;
+    font-style: italic;
+    color: #184f6b;
+}
+
+.us-active{
+    position: relative;
+    width: 800px;
+    height: 230px;
+    margin: 42px auto;
+}
+.us-active1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+}
+.active-desc{
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.56);
+}
+.us-active2{
+    position: absolute;
+    top: 120px;
+    right: 0;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 40px rgba(43, 108, 140, 0.5);
+    border-right: 4px solid #f5c813;
+}
+.us-active-more{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-top: 10px;
+}
+.us-active-more p{
+    width: 98px;
+    height: 27px;
+    border: 2px solid #000;
+    text-align: center;
+    line-height: 27px;
+    font-size: 20px;
+    float: left;
+    border-right: 0;
+}
+.us-active-more span{
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    background-color: #245974;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 27px;
+    border: 2px solid #000;
+    float: left;
+}
+
+/*us-idea*/
+.us-idea{
+    position: relative;
+    width: 1288px;
+    height: 398px;
+    margin-left: 60px;
+}
+.idea{
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+.idea2{
+    position: absolute;
+    top: 0;
+    left: 400px;
+}
+.idea3{
+    position: absolute;
+    top: 0;
+    left: 800px;
+}
+
+.us-idea2{
+    width: 1288px;
+    height: 600px;
+    margin-bottom: 60px;
+    position: relative;
+}
+.idea4{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.idea5{
+    position: absolute;
+    top: 0;
+    left: 284px;
+}
+.idea4{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.idea-bac{
+    position: absolute;
+    top: 0px;
+    right: -54px;
+    width: 482px;
+    height: 400px;
+    background-color: #f5c813;
+}
+.idea6 {
+    position: absolute;
+    top: 0;
+    right: -56px;
+}
+
+.us-idea3{
+    position: absolute;
+    bottom: 0;
+    left: 294px;
+    width: 950px;
+    height: 186px;
+    display: flex;
+    justify-content: space-between;
+}
+.idea8{
+    width: 230px;
+    height: 185px;
+    background-color: #477389;
+    color: #fff;
+    text-align: center;
+    line-height: 186px;
+}
+.us-mean   {
+    position: absolute;
+    top: 85px;
+    left: 450px;
+    color:white;
+}
+.means-name{
+    margin-top: 18px;
+}
+.means{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.us-idea-more{
+    position: absolute;
+    bottom: 30px;
+    left: 628px;
+    margin-top: 10px;
+}
+.us-idea-more p{
+    width: 98px;
+    height: 27px;
+    border: 2px solid #000;
+    text-align: center;
+    line-height: 27px;
+    font-size: 20px;
+    float: left;
+    border-right: 0;
+    background-color: white;
+}
+.us-idea-more span{
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    background-color: #245974;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 27px;
+    border: 2px solid #000;
+    float: left;
+}
+.us-mean2   {
+    position: absolute;
+    top: 45px;
+    right: 70px;
+    color:white;
+    text-align: right;
+}
+.means-name{
+    margin-top: 18px;
+}
+.means{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.us-idea-more2{
+    position: absolute;
+    bottom: 260px;
+    right: 70px;
+    margin-top: 10px;
+}
+.us-idea-more2 p{
+    width: 98px;
+    height: 27px;
+    border: 2px solid #000;
+    text-align: center;
+    line-height: 27px;
+    font-size: 20px;
+    float: left;
+    border-right: 0;
+    background-color: white;
+}
+.us-idea-more2 span{
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    background-color: #245974;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 27px;
+    border: 2px solid #000;
+    float: left;
+}
+
+/*cap*/
+.cap{
+    position: relative;
+    width: 1000px;
+    height: 330px;
+    margin: 70px auto 0;
+}
+.cap-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 330px;
+    text-align: center;
+}
+.cap-right h5{
+    letter-spacing: 10px;
+}
+.cap-right h1{
+    height: 40px;
+    font-size: 40px;
+    letter-spacing: 20px;
+    padding-left: 16px;
+    transform: skew(-16deg);
+}
+.cap-F{
+    position: absolute;
+    top: 6px;
+    right: 400px;
+    font-size: 78px;
+    font-style: italic;
+}
+.cap-name{
+    margin-top: 52px;
+    font-size: 26px;
+    color: #727272;
+    transform: skew(-16deg);
+    text-align: left;
+}
+.us-idea-more3{
+    position: absolute;
+    bottom: 10px;
+    right: 286px;
+    margin-top: 10px;
+}
+.us-idea-more3 p{
+    width: 98px;
+    height: 27px;
+    border: 2px solid #000;
+    text-align: center;
+    line-height: 27px;
+    font-size: 20px;
+    float: left;
+    border-right: 0;
+    background-color: white;
+}
+.us-idea-more3 span{
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    background-color: #245974;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 27px;
+    border: 2px solid #000;
+    float: left;
+}

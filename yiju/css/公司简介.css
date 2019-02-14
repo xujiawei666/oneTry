@@ -1,0 +1,138 @@
+.banner{
+    position: relative;
+    width: 1366px;
+    height: 250px;
+    margin: 0 auto;
+    background: url("../img/summary-banner.png") no-repeat;
+}
+
+
+/*summary-title*/
+.summary-title{
+    width: 300px;
+    height: 80px;
+    margin: 60px auto;
+}
+.summary-ko{
+    position: relative;
+    width: 1000px;
+    height: 70px;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    border-bottom: 2px dashed black;
+}
+.summary-kohao{
+    position: absolute;
+    top: 0;
+    left: 140px;
+    color: rgb(92,92,92);
+    font-size: 22px;
+}
+.summary-kohao p:first-child{
+    font-weight: bold;
+}
+.summary-main{
+    position: relative;
+    width: 1000px;
+    height: 380px;
+    margin: 0 auto;
+}
+.squre{
+    width: 9px;
+    height: 9px;
+    background-color: black;
+}
+.summary-main-title{
+    position: absolute;
+    top: -8px;
+    left: 30px;
+    font-weight: bold;
+}
+.summary-main-title span:last-child{
+    font-size: 14px;
+    color: rgb(196,196,196);
+}
+.summary-main-text{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(92, 92, 92, 0.64);
+}
+.summary-main-text p:first-child{
+    margin-bottom: 30px;
+}
+.squre1{
+    position: absolute;
+    top: 207px;
+    left: 0;
+    width: 9px;
+    height: 9px;
+    background-color: black;
+}
+.summary-main-title1{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    font-weight: bold;
+}
+.summary-main-title1 span:last-child{
+    font-size: 14px;
+    color: rgb(196,196,196);
+}
+.summary-main-text1{
+    margin-top: 60px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(92, 92, 92, 0.64);
+}
+
+
+/*summary-img*/
+.summary-img{
+    position: relative;
+    width: 1366px;
+    height: 380px;
+}
+.summary-img2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.summary-img-mian{
+    position: relative;
+    width: 1000px;
+    height: 450px;
+    margin: 20px auto;
+    font-weight: bold;
+    color: rgba(92, 92, 92, 0.64);
+}
+.summary-img-english{
+    font-size: 12px;
+    line-height: 20px;
+}
+.summary-img-english:first-child{
+    padding-bottom: 20px;
+}
+.squre2{
+    margin-top: 20px;
+    width: 9px;
+    height: 9px;
+    background-color: black;
+}
+.summary-main-title2{
+    position: absolute;
+    bottom: 215px ;
+    left: 30px;
+    font-weight: bold;
+}
+.imop{
+    color: black;
+}
+.imop1{
+    font-size: 12px;
+    line-height: 20px;
+}
+.footer-one{
+    margin-top: 0;
+}
+
