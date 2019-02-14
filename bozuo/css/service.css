@@ -1,0 +1,219 @@
+/*banner*/
+.banner{
+    position: relative;
+    height: 640px;
+}
+.points{
+    width: 1407px;
+    height: 194px;
+    background-color: white;
+    margin: 470px auto 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.po{
+    width: 235px;
+}
+.po p{
+    font-size: 34px;
+}
+.po span{
+    font-size: 18px;
+    color: #727272;
+}
+.po-img{
+    width: 126px;
+    height: 67px;
+    overflow: hidden;
+    margin: 10px auto 0;
+}
+.po-img img{
+    opacity: 0.2;
+    padding-top: 35px;
+    transition: all .5s linear;
+}
+.po:hover img{
+    padding-top: 0;
+    opacity: 1;
+}
+
+/*middle*/
+.middle{
+    /*width: 1920px;*/
+    background-color: #F0F4F5;
+    overflow: hidden;
+    padding-bottom: 86px;
+}
+.middle-title  {
+    width: 174px;
+    height: 33px;
+    margin: 210px auto 52px;
+    background: url("../img/jlt.png")no-repeat -583px -293px;
+}
+.middle-title2{
+    text-align: center;
+    font-size: 38px;
+}
+.idea{
+    width: 1140px;
+    height: 522px;
+    margin: 127px auto 0;
+    font-size: 24px;
+    color: #727272;
+}
+.idea-left{
+    margin-top: 23px;
+    width: 536px;
+    height: 522px;
+    float: left;
+}
+.idea-left img  {
+    margin-left: 53px;
+}
+.idea-left p{
+    margin-top: 172px;
+}
+.idea-right{
+    width: 388px;
+    height: 546px;
+    float: right;
+    text-align: right;
+}
+.idea-right img{
+    margin-top: 197px;
+}
+
+.middle-title3{
+    width: 244px;
+    height: 32px;
+    margin: 126px auto 149px;
+    background: url("../img/jlt.png")no-repeat -583px -336px;
+}
+.process{
+    width: 1920px;
+    height: 560px;
+    overflow: hidden;
+    background: url("../img/服务/椭圆 1 拷贝 14@2x.png")no-repeat;
+}
+.circle-top,.circle-bottom{
+    margin-left: 360px;
+    margin-top: 64px;
+    width: 838px;
+    height: 186px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    line-height: 186px;
+}
+.cirle{
+    width: 187px;
+    font-size: 20px ;
+}
+.circle-bottom{
+    margin-left: 505px;
+    width: 1055px;
+}
+
+.middle-title4{
+    width: 304px;
+    height: 43px;
+    margin: 125px auto 149px;
+    background: url("../img/jlt.png")no-repeat -583px -388px;
+}
+.advantage,.advantage2 {
+    position: relative;
+    width: 1200px;
+    height: 339px;
+    margin: 150px auto 0;
+}
+.advantage-mean{
+    position: absolute;
+    top: 0;
+    right: 30px;
+    text-align: center;
+}
+.advantage-mean p:first-child{
+    font-size: 38px;
+}
+.advantage-mean p:last-child{
+    margin-top: 190px;
+    font-size: 18px;
+    width: 418px;
+    color: #727272;
+}
+
+.advantage2>img{
+    margin-left: 716px;
+}
+.advantage2 .advantage-mean{
+    top: 0;
+    left: 30px;
+}
+.advantage2 .advantage-mean p:first-child{
+    width: 418px;
+}
+.advantage2:last-child p:last-child{
+    margin-top: 170px;
+}
+
+
+.end{
+    margin-top: 0;
+}
+@media screen and (max-width: 1366px){
+    .process{
+        z-index: 0;
+        position: relative;
+        width: 1366px;
+        background: #E74D95;
+    }
+    .process:before{
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 130px;
+        left: -50px;
+        width: 1300px;
+        height: 41px;
+        border-radius: 20px;
+        background-color: black;
+    }
+    .process:after{
+        content: "";
+        z-index: -1;
+        position: absolute;
+        bottom: 130px;
+        right: 0;
+        width: 1300px;
+        height: 41px;
+        border-radius: 20px;
+        background-color: black;
+    }
+    .circle-top,.circle-bottom{
+        margin-left: 150px;
+        margin-top: 64px;
+        width: 838px;
+        height: 186px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        line-height: 186px;
+
+    }
+    .cirle{
+        width: 187px;
+        font-size: 20px ;
+        background-color: white;
+        border-radius: 50%;
+    }
+    .circle-bottom{
+        margin-left: 200px;
+        width: 1055px;
+    }
+}
+@media screen and (max-width: 1366px) {
+    .points {
+        width: 1349px;
+    }
+}

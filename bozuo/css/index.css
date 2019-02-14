@@ -1,0 +1,416 @@
+
+/*banner开始*/
+    .banner{
+        position: relative;
+        height: 944px;
+    }
+/*导航栏*/
+
+/*联系方式*/
+
+/*我们会干什么*/
+    .we-do{
+        position: absolute;
+        top: 621px;
+        left: 360px;
+        width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        color: white;
+        font-size: 22px;
+    }
+    .we-what p:first-child{
+        width: 165px;
+        height: 164px;
+    }
+    .banner>img{
+        height: 664px;
+        opacity: 0;
+    }
+    .showing {
+        opacity: 1!important;
+    }
+/*轮播钮*/
+    .pointers{
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 335px;
+        right: 235px;
+        width: 407px;
+        height: 70px;
+        color: white;
+        font-size: 38px;
+        font-weight: bold;
+        transform: rotate(-90deg);
+        line-height: 70px;
+    }
+    .pointers p {
+        transition: all .4s linear;
+    }
+    .pointers p:hover{
+        font-size: 90px;
+    }
+    .da {
+        font-size: 90px;
+    }
+
+/*轮播箭头*/
+    .arrowleft,.arrowright{
+        position: absolute;
+        top: 230px;
+        width: 97px;
+        height: 194px;
+    }
+    .arrowleft{
+        left: 96px;
+        background: url("../img/jlt2.png")no-repeat -525px -50px;
+    }
+    .arrowright{
+        right: 98px;
+        background: url("../img/jlt2.png")no-repeat -640px -50px;
+    }
+    .arrowleft:hover{
+        background: url("../img/jlt2.png")no-repeat -295px -50px;
+    }
+    .arrowright:hover{
+        background: url("../img/jlt2.png")no-repeat -408px -50px;
+    }
+    .arrowdown{
+        position: absolute;
+        bottom: 13px;
+        left: 946px;
+        width:50px;
+        height:50px;
+        background: url("../img/jlt2.png")no-repeat -298px 0;
+    }
+
+/*banner结束*/
+
+/*middle开始*/
+    .middle{
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+/*part1*/
+    .part1{
+        position: relative;
+        margin-top: 80px;
+        overflow: hidden;
+        height: 720px;
+    }
+    .title{
+        margin-top: 66px;
+        height: 38px;
+        width: 180px;
+        font-size: 48px;
+        color: rgba(0,0,0,1);
+        line-height: 55px;
+        transform: rotate(90deg);
+    }
+    .part1-img{
+        position: absolute;
+        top: 0;
+        right: 32px;
+        width: 656px;
+        height: 399px;
+    }
+    .question{
+        position: absolute;
+        bottom: 248px;
+        left: 30px;
+        width:534px;
+        height:46px;
+        font-size:58px;
+        text-align: center;
+    }
+    .part1-mean{
+        position: absolute;
+        bottom: 0px;
+        left: 30px;
+        width: 1118px;
+        height: 82px;
+        color: #727272;
+        text-align: center;
+    }
+    .part1-mean span{
+        display: inline-block;
+    }
+    .mean-name{
+        font-size: 32px;
+    }
+    .mean-desc{
+        width: 533px;
+        height: 48px;
+        font-size: 16px;
+        margin-left: 82px;
+    }
+
+/*part2*/
+    .part2,.part4{
+        position: relative;
+        margin-top: 125px;
+        height: 691px;
+    }
+    .part2 img{
+        margin-left: 14px;
+    }
+    .part2 p,.part4 p{
+        position: absolute;
+        text-align: center;
+    }
+    .part2-title{
+        top: 66px;
+        right: -15px;
+        height:38px;
+        width:180px;
+        font-size:48px;
+        transform: rotate(90deg);
+    }
+    .part2-question{
+        width: 546px;
+        top: 318px;
+        right: 33px;
+        font-size: 58px;
+    }
+    .part2-answer{
+        width: 546px;
+        top: 395px;
+        right: 33px;
+        font-size: 48px;
+    }
+    .part2-e{
+        margin-left: 14px;
+        margin-top: 48px;
+        display: inline-block;
+        width: 563px;
+        height: 78px;
+        color: #727272;
+        font-size: 16px;
+        text-align: center;
+    }
+    .part2-c{
+        margin-left: 42px;
+        margin-top: -7px;
+        display: inline-block;
+        width: 538px;
+        height: 133px;
+        color: #727272;
+        font-size: 32px;
+    }
+
+
+/*custom */
+    .custom{
+        margin-top: 125px;
+    }
+    .custom-title{
+        position: relative;
+        width: 1168px;
+        height: 118px;
+        font-size: 50px;
+        margin-left: 32px;
+    }
+    .custom-title img{
+        position: absolute;
+        top: 0;
+        left: 548px;
+    }
+    .custom-mains{
+        width: 955px;
+        height: 635px;
+        margin: 70px auto 125px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .custom-main{
+        position: relative;
+        width: 400px;
+        height: 300px;
+        color: rgba(255, 255, 255, 0.7);
+        overflow: hidden;
+        margin-bottom: 35px;
+    }
+    .custom-main>img{
+        transition: all 0.5s linear;
+    }
+    .custom-main:hover>img{
+        transform: scale(1.1);
+    }
+    .cover{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        transition: all .2s linear;
+    }
+    .cover-name{
+        margin-top: 50px;
+        font-size: 28px;
+        text-align: center;
+        opacity: 0;
+    }
+    .cover-desc{
+        margin-top: 46px;
+        font-size: 18px;
+        text-align: center;
+        opacity: 0;
+    }
+    .custom-main span{
+        display: inline-block;
+        margin-left: 292px;
+    }
+    .span-box{
+        position: absolute;
+        bottom: 20px;
+        right: 21px;
+        text-align: right;
+        opacity: 0;
+    }
+    .span-box img{
+        opacity: 0.7;
+    }
+    .cover:hover{
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    @keyframes biu {
+        0%{
+            opacity: 0;
+            margin-top: 0;
+        }
+        100%{
+            opacity: 1;
+            margin-top: 50px;
+        }
+    }
+    @keyframes biubiu {
+        0%{
+            opacity: 0;
+            bottom: 0;
+            right: 0;
+        }
+        100%{
+            opacity: 1;
+            bottom: 20px;
+            right: 21px;
+        }
+    }
+    .cover:hover p{
+        animation: biu 1s;
+        opacity: 1;
+    }
+    .cover:hover .span-box{
+        animation: biubiu .5s linear;
+        opacity: 1;
+    }
+    /*part3*/
+    .part3{
+        position: relative;
+        overflow: hidden;
+        height: 732px;
+    }
+    .part3-title{
+        margin-top: 66px;
+        height: 38px;
+        width: 180px;
+        font-size: 48px;
+        color: rgba(0,0,0,1);
+        line-height: 55px;
+        transform: rotate(90deg);
+    }
+    .part3-img{
+        position: absolute;
+        top: 0;
+        right: 32px;
+        width: 506px;
+        height: 478px;
+    }
+    .part3-question{
+        position: absolute;
+        bottom: 344px;
+        left: 33px;
+        width:534px;
+        height:46px;
+        font-size:58px;
+        text-align: center;
+    }
+    .part3-mean{
+        position: absolute;
+        bottom: 0px;
+        left: 33px;
+        width: 1140px;
+        height: 186px;
+        color: #727272;
+    }
+    .part3-mean span{
+        display: inline-block;
+        font-size: 32px;
+    }
+    .part3-name{
+        /*width: 420px;*/
+    }
+    .part3-desc{
+        /*width: 746px;*/
+        text-align: right;
+    }
+
+    /*part4*/
+    .part4{
+        height: 660px;
+    }
+    .part4 img{
+        margin-left: 8px;
+    }
+    .part4 .part2-question{
+        top: 344px;
+        right: 65px;
+    }
+    .part4 .part2-answer{
+        top: 421px;
+        right: 65px;
+    }
+    .part4 span{
+        display: inline-block;
+        font-size: 34px;
+        color: #727272;
+    }
+    .part4-e{
+        margin-top: 213px;
+        margin-right: 27px;
+    }
+@media screen and (max-width: 1366px){
+    .we-do{
+        top: 421px;
+        left: 80px;
+        width: 1200px;
+    }
+    .pointers{
+        top: 225px;
+        right: 205px;
+        width: 307px;
+        font-size: 28px;
+        text-align: center;
+    }
+    .pointers p {
+        width: 77px;
+    }
+    .pointers p:hover{
+        font-size: 70px;
+    }
+    .da {
+        font-size: 70px;
+    }
+
+    .arrowdown{
+        bottom: -64px;
+        left: 667px;
+    }
+    .banner{
+        height: 600px;
+    }
+}

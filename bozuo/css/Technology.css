@@ -1,0 +1,140 @@
+/*banner  */
+.banner{
+    position: relative;
+    height: 640px;
+}
+.pointes{
+    width: 1407px;
+    height: 194px;
+    background-color: white;
+    margin: 470px auto 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.point{
+    position: relative;
+    width: 340px;
+    height: 100%;
+    text-align: center;
+}
+.point-img1{
+    width: 126px;
+    height: 33px;
+    margin: 45px auto 0;
+    /*overflow: hidden;*/
+    transition: all 0.5s linear;
+}
+.point:first-child .point-img1{
+    background: url("../img/软件/01.png")no-repeat;
+}
+.point:nth-child(2) .point-img1{
+    background: url("../img/软件/02.png")no-repeat;
+}
+.point:nth-child(3) .point-img1{
+    background: url("../img/软件/03.png")no-repeat;
+}
+.point p{
+    margin-top: -5px;
+    font-size: 34px;
+    font-weight: bold;
+}
+.show {
+    height: 67px;
+    margin: 10px auto 0;
+}
+.point:nth-child(1) .show{
+    background: url("../img/软件/011.png")no-repeat;
+}
+.point:nth-child(2) .show{
+    background: url("../img/软件/022.png")no-repeat;
+}
+.point:nth-child(3) .show{
+    background: url("../img/软件/033.png")no-repeat;
+}
+.point span{
+    display: inline-block;
+    width: 227px;
+    font-size: 18px;
+    color: #A3A3A3;
+}
+
+/*middle*/
+.middle{
+    background-color: #F0F4F5;
+    overflow: hidden;
+}
+.middle-title{
+    width: 368px;
+    height: 32px;
+    margin: 210px auto 149px;
+    background: url("../img/jlt.png")no-repeat -583px -548px;
+}
+.middle-part1{
+    position: relative;
+    width: 1200px;
+    margin: 150px auto 0;
+}
+.middle-part1 img{
+    margin-left: 673px;
+}
+.middle-desc{
+    width: 600px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+.middle-desc p, .middle-desc2 p{
+    font-size: 38px;
+    /*margin-bottom: 211px;*/
+}
+.middle-desc span,.middle-desc2 span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 18px;
+}
+.middle-desc a{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 32px;
+}
+.middle-part2{
+    position: relative;
+    width: 1200px;
+    margin: 150px auto 0;
+}
+ .middle-desc2{
+     position: absolute;
+    top: 0;
+    right: 0;
+     width: 600px;
+     height: 100%;
+     text-align: center;
+}
+ .middle-desc2 a{
+     font-size: 32px;
+ }
+ .one{
+     height: 374px;
+ }
+ .two{
+     height: 377px;
+ }
+ .three{
+     height: 292px;
+ }
+ .four{
+     height: 296px;
+ }
+
+@media screen and (max-width: 1366px) {
+    .pointes {
+        width: 1349px;
+    }
+}
