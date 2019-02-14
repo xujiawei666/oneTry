@@ -1,0 +1,456 @@
+.crazy-box{
+    width: 10.8rem;
+    margin: 0 auto;
+}
+
+/*title*/
+.title{
+    width: 10.3rem;
+    height: 1.2rem;
+    font-size: .44rem;
+    line-height: 1.2rem;
+    padding-left: .5rem;
+    border-bottom: .01rem solid #a8a8a8;
+    box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.38);
+}
+.title-name{
+    display: inline-block;
+    width: .85rem;
+}
+.title span{
+    display: inline-block;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    width: 2.1rem;
+    height: 1.2rem;
+}
+.sub-nav{
+    display: none;
+    position: absolute;
+    top: 1.6rem;
+    right: .3rem;
+    width: 3.76rem;
+    height: 6rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+    border-radius: .25rem;
+}
+.sub-nav a{
+    text-decoration: none;
+    color: white;
+}
+.sub-nav:before{
+    position: absolute;
+    top: -.19rem;
+    right: .25rem;
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: .1rem solid rgba(0, 0, 0, 0.8);
+    border-top: .1rem solid transparent;
+    border-left: .1rem solid transparent;
+    border-right: .1rem solid transparent;
+
+}
+.sub1{
+    font-family: 'iconfont';
+    width: 100%;
+    height: 1.2rem;
+    border-bottom: .02rem solid #fff;
+    font-size: .44rem;
+    color: white;
+    line-height: 1.2rem;
+    padding-left: .4rem;
+}
+.sub1:last-child{
+    border: 0;
+}
+/*header*/
+.header{
+    width: 10.8rem;
+    margin: 0 auto;
+}
+.search{
+    position: relative;
+    width: 10.2rem;
+    height: .85rem;
+    margin: .3rem auto 0;
+    font-size: .4rem;
+    color: #787878;
+}
+.fdj{
+    font-family: 'iconfont';
+    width: 1rem;
+    height: .85rem;
+    line-height: .85rem;
+    border-radius: .5rem;
+    background-color: #f7f7f7;
+    padding-left: .2rem;
+}
+.search input{
+    position: absolute;
+    top: 0;
+    right: 0.2rem;
+    width: 9.2rem;
+    height: .85rem;
+    border: 0;
+    border-radius: .5rem;
+    outline: none;
+    background-color: #f7f7f7;
+    font-size: .38rem;
+    color: #787878;
+    padding-left: .25rem;
+}
+
+/*nav*/
+.nav{
+    width: 10.8rem;
+    height: .8rem;
+}
+.nav ul{
+    /*width: 10.8rem;*/
+    height: .8rem;
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul li{
+    width: 1.4rem;
+    height: .8rem;
+    font-size: .38rem;
+    line-height: .8rem;
+    color: #838383;
+    text-align: center;
+}
+.nav ul li:first-child{
+    border-right: 1px solid #a8a8a8;
+}
+.nav ul li:hover a{
+    padding-bottom: .1rem;
+    border-bottom: 2px solid red;
+}
+
+/*banner*/
+.banner{
+    position: relative;
+    width: 10.8rem;
+    height: 3rem;
+}
+.banner img{
+    position: absolute;
+    width: 10.8rem;
+    height: 3rem;
+}
+.points{
+    position: absolute;
+    bottom: .05rem;
+    left: 40%;
+    width: 2rem;
+    height: .3rem;
+    display: flex;
+    justify-content: space-around;
+}
+.point{
+    width: .2rem;
+    height: .2rem;
+    border-radius: 50%;
+    background-color: white;
+}
+
+/*middle  */
+.middle{
+    position: relative;
+    width: 10.8rem;
+    height: 6.9rem;
+}
+.middle>img{
+    width: 10.8rem;
+    height: 6.9rem;
+}
+.middle ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10.8rem;
+    height: 4.1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.middle ul li{
+    width: 2.16rem;
+    height: 1.65rem;
+    color:white;
+    font-size: .3rem;
+    padding-top: .4rem;
+}
+.middle-next{
+    position: absolute;
+    bottom: -0.3rem;
+    left: 0;
+}
+.middle-next img{
+    width: 10.8rem;
+    height: 2.36rem;
+}
+
+/*must*/
+.must{
+    width: 10rem;
+    height: 6rem;
+    margin: 0 auto;
+}
+.must-name{
+    font-size: .5rem;
+    font-weight: bold;
+}
+.must-desc{
+    font-size: .34rem;
+    color: gray;
+}
+.must-title a{
+    display: inline-block;
+    width: .4rem;
+    height: 0.4rem;
+    border: 1px solid gray;
+    font-size: .16rem;
+    padding-top: .1rem;
+    border-radius: .1rem;
+    text-align: center;
+}
+.more-must{
+    width: 1.75rem;
+    height: .3rem;
+    font-size: .3rem;
+    float: right;
+    padding-top: .7rem;
+    color: #898989;
+}
+
+.must-mean{
+    width: 10rem;
+    height: 5.4rem;
+    margin: 0 auto;
+}
+.must-mean ul{
+    width: 10rem;
+    height: 4.45rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: .3rem;
+    text-align: center;
+    padding-top: .3rem;
+}
+.must-mean ul li img{
+    width: 3.1rem;
+    height: 3.1rem;
+}
+.mean-name{
+    margin-top: .2rem;
+    color: #ed5155;
+}
+.mean-name span{
+    font-weight: bold;
+}
+.mean-desc{
+    margin-top: .2rem;
+    color: #bdbdbd;
+}
+
+.must-point{
+    width: 1.2rem;
+    height: .2rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.must-points{
+    width: .1rem;
+    height: .1rem;
+    border-radius: 50%;
+    background-color: #cfcfcf;
+}
+.must-points:hover{
+    background-color: #808080;
+    width: .2rem;
+}
+
+/*cheap */
+.cheap  {
+    width: 10rem;
+    height: 4.15rem;
+    margin: .4rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+.cheap-one{
+    width: 4.58rem;
+    height: 4.15rem;
+}
+.cheap-title span{
+    font-weight: bold;
+    font-size: .32rem;
+    color: #cf4042;
+}
+.cheap-title a{
+    font-size: .34rem;
+    font-weight: bold;
+}
+.cheap-one ul{
+    height: 3.33rem;
+    width: 4.58rem;
+    display: flex;
+    justify-content: space-between;
+}
+.cheap-one ul li {
+    height: 3.33rem;
+    width: 2.2rem;
+    text-align: center;
+}
+.cheap-one ul li>img{
+    width: 2.2rem;
+    height: 2.2rem;
+}
+.cheap-name{
+    font-size: .27rem;
+    font-weight: bold;
+    color: #e33443;
+}
+.cheap-name s{
+    font-size: .2rem;
+    color: #999999;
+}
+.cheap-desc{
+    font-size: .3rem;
+    color: #999;
+}
+.cheap-name img{
+    width: 2.2rem;
+    height: .5rem;
+}
+.cheap-two ul li>img{
+    width: 2.2rem;
+    height: 2rem;
+}
+
+/*good-thing*/
+.good-thing{
+    width: 10.8rem;
+    margin: 1rem auto 0.1rem;
+}
+.good-name{
+    font-size: .44rem;
+    text-align: center;
+}
+.good-desc{
+    height: .6rem;
+    line-height: .6rem;
+    font-size: .3rem;
+    text-align: center;
+    color: #9e9e9e;
+}
+.thing{
+    width: 10.8rem;
+    height: 4.55rem;
+    margin-bottom: .1rem;
+}
+.thing img{
+    width: 4.55rem;
+    height: 4.55rem;
+}
+.thing-right{
+    position: relative;
+    width: 5.9rem;
+    height: 4.2rem;
+    margin-top: .35rem;
+    float: right;
+    font-size: 0;
+}
+.right-name{
+    width: 5.4rem;
+    font-size: .38rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.right-have{
+    font-size: .34rem;
+    color: #a4a4a4;
+    margin-bottom: 1.1rem;
+}
+.right-have span{
+    display: inline-block;
+    width: 1.7rem;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.right-desc{
+    color: #e7383f;
+    font-size: .3rem;
+}
+.right-desc span{
+    font-size: .38rem;
+    font-weight: bold;
+}
+.right-desc i{
+    font-size: .42rem;
+    font-style: normal;
+}
+.thing-right>span{
+    display: inline-block;
+    padding-top: .3rem;
+    color: #a4a4a4;
+    font-size: .3rem;
+}
+.thing-right button{
+    position: absolute;
+    bottom: .3rem;
+    right: .4rem;
+    width: 2.1rem;
+    font-size: .34rem;
+    background: linear-gradient(to right,#e84242,#fd9067);
+    text-align: center;
+    line-height: .8rem;
+    border: 0;
+    border-radius: .4rem;
+    outline: none;
+    color: white;
+}
+
+/*good-thing1 */
+.good-thing1{
+    width: 10.8rem;
+}
+.thing1-img{
+    height: 3.5rem;
+}
+.thing-img img{
+    width: 10.8rem;
+    height: 2.85rem;
+}
+.thing1-next{
+    width: 10rem;
+    height: 4rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.thing1-mean{
+    width: 3.14rem;
+    text-align: right;
+}
+.thing1-mean img{
+    height: 3.1rem;
+    width: 3.14rem;
+}
+.t-name{
+    width: 3.14rem;
+    font-size: .3rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

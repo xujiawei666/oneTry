@@ -1,0 +1,463 @@
+
+.mobile{
+    width: 1.08rem;
+}
+.header{
+    text-align:left;
+    width: 10.8rem;
+    height: 1.32rem;
+    background-color: #FF5000;
+}
+.header-title{
+    position: relative;
+    width: 100%;
+    height: 0.66rem;
+    font-family: 'iconfont';
+    color: #ffffff;
+    font-size: 0.36rem;
+}
+.header-title a{
+    display: inline-block;
+    width: 0.84rem;
+    line-height: 0.66rem;
+    text-align: center;
+    font-size: 0.36rem;
+}
+.header-title span:nth-child(2){
+    display: inline-block;
+    line-height: 0.66rem;
+    font-size: 0.27rem;
+    text-align: center;
+}
+.header-title span:nth-child(3){
+    font-size: 0.24rem;
+    padding-left: 10px;
+    border-left: 1px solid white;
+}
+.car{
+    position: absolute;
+    top: 0.1rem ;
+    right: .2rem;
+}
+.car-menu {
+    position: absolute;
+    right: 0rem;
+    width: 4rem;
+    display: none;
+    height: 6rem;
+    background-color: rgba(168, 168, 168, 0.36);
+    z-index: 999;
+}
+.car:hover{
+    background-color: rgba(168, 168, 168, 0.42);
+}
+.car:hover .car-menu{
+    display: block;
+}
+.header-content{
+    position: relative;
+    width: 100%;
+    height: 0.66rem;
+}
+.header-content input{
+    position: absolute;
+    top: 0;
+    left: 0.57rem;
+    width: 10.12rem;
+    height: 0.57rem;
+    background-color: #C21300;
+    font-size: 0.30rem;
+    outline: none;
+    border: 0;
+    color: gray;
+}
+.fangda{
+    position: absolute;
+    top: 0;
+    left: 0.08rem;
+    font-family: 'iconfont';
+    width: 0.5rem;
+    height: 0.57rem;
+    line-height: 0.57rem;
+    background-color: #C21300;
+    font-size: 0.32rem;
+    text-align: center;
+    color: gray;
+}
+
+/*菜单*/
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 4.2rem;
+    height: 100%;
+    display: none;
+}
+.menu-header{
+    width: 4.2rem;
+    height: 2.43rem;
+    background:  url("../img/tbtou.webp") no-repeat;
+    overflow: hidden;
+}
+.tao{
+    margin-top: .2rem;
+    margin-left: .2rem;
+    width: 0.96rem;
+    height: 0.96rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.tao img {
+    display: inline-block;
+    margin-bottom: 0.1rem;
+    width: .96rem;
+    height: .96rem;
+}
+.tao-user{
+    height: .28rem;
+    margin-top: .7rem;
+    margin-left: .2rem;
+    font-size: .24rem;
+    color: white;
+}
+.tao-user a:first-child{
+    padding-right: .1rem;
+    border-right: 1px solid white;
+}
+.menu-item{
+    width: 4.2rem;
+    height: 100%;
+}
+.menu-item ul {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: white;
+}
+.menu-item ul li{
+    width: 4.2rem;
+    height: .72rem;
+    font-family: 'iconfont';
+    font-size: .2rem;
+    line-height: .72rem;
+}
+.menu-icon{
+    margin-left: .2rem;
+    color: gray;
+    font-size: .32rem;
+}
+.menu-desc{
+    margin-left: .4rem;
+    font-size: .2rem;
+}
+.menu-after{
+    position: absolute;
+    top: 0;
+    left: 4.2rem;
+    width: 6.6rem;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+/*banner*/
+.banner{
+    position: relative;
+    width: 10.8rem;
+    height: 3.46rem;
+}
+.banner-img{
+    width: 100%;
+    height: 100%;
+}
+.banner-img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.banner-pointers{
+    position: absolute;
+    bottom: 0.2rem;
+    left: 45%;
+    width: 0.72rem;
+    height: .08rem;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-pointer{
+    width: 0.08em;
+    height: 0.08em;
+    border-radius: 50%;
+    background-color: white;
+}
+
+/*middle*/
+.middle{
+    position: relative;
+    width: 10.8rem;
+    height: 4.6rem;
+}
+.middle:before{
+    position: absolute;
+    top: -0.15rem;
+    left: 10%;
+    content: '';
+    width: 8rem;
+    height: .4rem;
+    border-radius: 50%;
+    background-color: white;
+}
+.middle ul{
+    position: absolute;
+    z-index: 1;
+    width: 10.8rem;
+    height: 4.6rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.middle ul li{
+    width: 2.16rem;
+    height: 2.3rem;
+    text-align: center;
+    font-size: .26rem;
+    color: gray;
+}
+.middle ul li img{
+    width: 1.76rem;
+    height: 1.38rem;
+}
+
+/*hot*/
+.hot{
+    position: relative;
+    width: 10.8rem;
+    height: 1.73rem;
+    /*background-color: #C21300;*/
+}
+.hot-left{
+    width: 1.33rem;
+    height: 1.33rem;
+    font-size: .5rem;
+    padding: .2rem;
+    color: #5F463A;
+    text-align: center;
+    font-style: italic;
+    line-height: .75rem;
+    text-shadow: 0px 0px 3px black;
+}
+.hot-right{
+    width: 6.68rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 1.73rem;
+    font-size: 0;
+    padding-top: .4rem;
+}
+.hot-name{
+    display: inline-block;
+    line-height: .3rem;
+    font-size: .24rem;
+    color: red;
+    border: 1px solid red;
+    border-radius: .05rem;
+    margin-right: .1rem;
+    /*line-height: .54rem;*/
+}
+.hot-desc{
+    display: inline-block;
+    font-size: .3rem;
+    color: rgb(51,51,51);
+    line-height: .54rem;
+}
+.hot-last{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 1.73rem;
+    width: 1.73rem;
+}
+.hot-last img{
+    height: 1.73rem;
+    width: 1.73rem;
+}
+
+/*shop*/
+.shop{
+    width: 10.8rem;
+    margin: 0 auto;
+    padding-top: .2rem;
+    background-color: #F4F4F4;
+}
+.jd-title{
+    height: 1.66rem;
+    width: 8.4rem;
+    margin: 0 auto;
+}
+.jd-title img{
+    width: 8.4rem;
+    height: 1.66rem;
+}
+.jd-home{
+    position: relative;
+    width: 100%;
+    height: .59rem;
+}
+.jd-home img{
+    position: absolute;
+    top: 0;
+    left: 35%;
+    display: inline-block;
+    height: .59rem;
+}
+
+/*goodthing*/
+.goodthing{
+    width: 10.8rem;
+    height: 3.49rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: .24rem;
+}
+.child-cloth{
+    width: 5.39rem;
+    text-align: center;
+    background-color: white;
+}
+.good-name{
+    font-size: .45rem;
+}
+.good-name span{
+    display: inline-block;
+    width: .7rem;
+    height: .1rem;
+    border-top: 2px solid black;
+}
+.good-desc{
+    margin-top: .18rem;
+    margin-bottom: .18rem;
+    font-size: .3rem;
+    color: #6a8df3;
+}
+
+/*goodmore*/
+.good-more {
+    margin: .02rem auto .1rem;
+    width: 10.8rem;
+    height: 3.49rem;
+    display: flex;
+    justify-content: space-between;
+}
+.good-more-thing{
+    width: 2.38rem;
+    height: 3.19rem;
+    padding-top: .3rem;
+    padding-left: .3rem;
+    font-size: 0px;
+    background-color: white;
+}
+.good-more-thing p{
+    font-size: .45rem;
+}
+.good-more-thing p span{
+    display: inline-block;
+    margin-bottom: 0.1rem;
+    font-size: .34rem;
+    color: #6a8df3;
+    text-align: left;
+}
+
+.jd-home1{
+    height: 1rem;
+    width: 10.8rem;
+    text-align: center;
+}
+.jd-home1 img{
+    height: 1rem;
+}
+
+
+
+/*every*/
+.every{
+    width: 10.8rem;
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.every-thing{
+    width: 2.38rem;
+    height: 3.19rem;
+    padding-top: .3rem;
+    padding-left: .3rem;
+    background-color: white;
+}
+.every-thing p{
+    font-size: .45rem;
+    background-image:-webkit-linear-gradient(90deg, #FF2A2A,#F139D2);
+    -webkit-background-clip:text;
+    color:transparent;
+}
+.every-thing span{
+    display: block;
+    font-size: .32rem;
+    margin-bottom: .18rem;
+}
+
+/*end*/
+.end{
+    width: 10.8rem;
+    height: 6.09rem;
+}
+.end-help{
+    height: 1.60rem;
+    border-top: 2px solid #eaeaea;
+    border-bottom: 2px solid #eaeaea;
+    font-size: .36rem;
+    color: gray;
+    text-align: center;
+}
+.end-help span{
+    width: 2.60rem;
+    display: inline-block;
+    margin-top: .6rem;
+    border-right: 2px solid gray;
+}
+.end-help span:last-child{
+    border: 0;
+}
+.end-app{
+    width: 10.8rem;
+    height: 1.76rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: .2rem;
+    border-bottom: .02rem solid #eaeaea;
+}
+.end-app1{
+    width: 3.6rem;
+    height: 1.76rem;
+    background-color: white;
+    color: gray;
+    font-family: 'iconfont';
+    text-align: center;
+}
+.end-name{
+    font-size: .9rem;
+}
+.end-desc{
+    font-size: .36rem;
+}
+.end-one{
+    font-size: .2rem;
+    color: gray;
+    text-align: center;
+    margin-top: .1rem;
+}
+

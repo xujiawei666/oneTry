@@ -1,0 +1,222 @@
+.car-box{
+    width: 10.8rem;
+    margin: 0 auto;
+}
+
+/*title*/
+.title{
+    width: 10.3rem;
+    height: 1.2rem;
+    font-size: .44rem;
+    line-height: 1.2rem;
+    padding-left: .5rem;
+    border-bottom: .01rem solid #a8a8a8;
+    box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.38);
+}
+.title-name{
+    display: inline-block;
+    width: .85rem;
+}
+.title span{
+    display: inline-block;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    width: 2.1rem;
+    height: 1.2rem;
+}
+
+.main-box{
+    width: 10.8rem;
+    background-color: #f7f7f7;
+}
+/*car*/
+.cars{
+    width: 10.8rem;
+    height: 6rem;
+    overflow: hidden;
+}
+.noting{
+    width: 6.6rem;
+    height: 5.6rem;
+    margin: .67rem auto 0;
+    text-align: center;
+}
+.noting p{
+    font-size: .44rem;
+    color: #c6c6c6;
+}
+.noting button{
+    width: 1.8rem;
+    font-size: .44rem;
+    line-height: .95rem;
+    color: #e46f81;
+    border: .02rem solid #e2335a;
+    background-color: white;
+    outline: none;
+    border-radius: .2rem;
+}
+
+/*.second*/
+.second{
+    width: 10.8rem;
+    height: 6.6rem;
+}
+/*second-title*/
+.second-title{
+    text-align: center;
+    margin-top: -0.8rem;
+}
+.second-title span{
+    display: inline-block;
+    width: 4rem;
+    height: .1rem;
+    border-top: 1px solid #a8a8a8;
+}
+.second-title a:before{
+    position: absolute;
+    top: .25rem;
+    left: -0.4rem;
+    content: '';
+    width: .1rem;
+    height: .1rem;
+    background-color: #ccc;
+    transform: rotate(45deg);
+}
+.second-title a:after{
+    position: absolute;
+    top: .25rem;
+    right: -0.4rem;
+    content: '';
+    width: .1rem;
+    height: .1rem;
+    background-color: #ccc;
+    transform: rotate(45deg);
+}
+.second-title a{
+    position: relative;
+    font-size: .4rem;
+    color: #a6a6a6;
+}
+
+/*second-main*/
+.second-main{
+    height: 5rem;
+    margin-top: .2rem;
+    margin-left: .2rem;
+    margin-bottom: .2rem;
+    background-color: white;
+}
+.second-header{
+    position: relative;
+    width: 10.8rem;
+    height: 1rem;
+    font-size: 0;
+}
+.second-header span{
+    padding-left: .4rem;
+    font-size: .44rem;
+    color: red;
+}
+.second-header a{
+    font-size: .3rem;
+    color: #949494;
+    padding-left: .5rem;
+}
+.time-boxes{
+    position: absolute;
+    top: 0;
+    left: 3.7rem;
+    width: 1.65rem;
+    height: .54rem;
+    display: flex;
+    justify-content: space-between;
+}
+.time-box{
+    width: .43rem;
+    height: .54rem;
+    border: 1px solid #a8a8a8;
+    font-size: .3rem;
+    text-align: center;
+    line-height: .54rem;
+    color: #000;
+}
+.second-arrows{
+    position: absolute;
+    top: 0.1rem;
+    left: 9.8rem;
+    width: .2rem;
+    height: .2rem;
+    border-bottom: .1rem solid #a8a8a8;
+    border-right: .1rem solid #a8a8a8;
+    transform: rotate(-45deg);
+}
+.second-main ul{
+    width: 12rem;
+    height: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.second-main ul li{
+    width: 3.09rem;
+    height: 100%;
+    text-align: center;
+    font-size: 0;
+}
+.second-main ul li img{
+    width: 1.9rem;
+    height: 2.0rem;
+    margin-bottom: .2rem;
+}
+.second-main ul li p{
+    font-size: .36rem;
+    color: red;
+}
+.second-main ul li s{
+    font-size: .28rem;
+    color: gray;
+}
+
+/*ends*/
+.ends{
+    margin-top: 1rem;
+    width: 10.8rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ends-box{
+    width: 5.38rem;
+    height: 7.15rem;
+    background-color: white;
+    text-align: center;
+    font-size: 0;
+    margin-bottom: .05rem;
+}
+.ends-box>img{
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-top: .45rem;
+}
+.ends-box p{
+    width: 4.4rem;
+    font-size: .3rem;
+    margin: 0 auto .1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+.ends-box span{
+    display: inline-block;
+    font-family: 'iconfont';
+    font-size: .4rem;
+    width: 2.2rem;
+}
+.ends-box-name{
+    text-align: left;
+}
+.ends-box-desc{
+    text-align: right;
+}

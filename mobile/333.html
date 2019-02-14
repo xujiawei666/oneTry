@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .aa{
+            width: 400px;
+            height: 400px;
+            margin: 0 auto;
+            border: 2px solid #5F463A;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .aa p{
+            text-align: center;
+            width: 400px;
+            height: 200px;
+            font-size: 30px;
+            color: #C21300;
+        }
+        .aa button{
+            width: 95px;
+            height: 100px;
+            border: 1px solid #5F463A;
+            background-color: white;
+            outline: none;
+            margin: 0;
+            padding: 0;
+            font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+    <div class="aa">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <p></p>
+    </div>
+    <script type="text/javascript">
+        // var arr = [-1,2,3,4,5,6,7];
+        // function s(arr){
+        //     var arr1=arr.map(function (ele,i) {
+        //         arr[i]=ele*ele
+        //     })
+        // }
+        // s(arr);
+        // console.log(arr)
+        // function f(arr){
+        //    var f= arr.filter(function (item) {
+        //         return item>0
+        //     })
+        //     console.log(f)
+        // }
+        // f(arr);
+        // window.onload = function () {
+        //     backTime();
+        // };
+        // function backTime() {
+        //     var now = new Date();
+        //     var end = new Date("2018-12-21 14:30:00");
+        //     var timeCut = end.getTime()-now.getTime();
+        //     if (timeCut>0){
+        //         var d = Math.floor(timeCut/1000/60/60/24);
+        //         var h = Math.floor(timeCut/1000/60/60%24);
+        //         var m = Math.floor(timeCut/1000/60%60);
+        //         var s = Math.floor(timeCut/1000%60);
+        //         setTimeout(backTime,1000);//计时器
+        //     }
+        //     else{
+        //         d = 0;
+        //         h = 0;
+        //         m = 0;
+        //         s = 0;
+        //     }
+        //     document.getElementById("dayDate").innerHTML = d+"天";
+        //     document.getElementById("hourDate").innerHTML = h+"时";
+        //     document.getElementById("minuteDate").innerHTML = m+"分";
+        //     document.getElementById("secondDate").innerHTML = s+"秒";
+        // }
+
+        // var now = new Date("2017/12/19 14:12:00");
+        // console.log(now.getDay());
+
+        // 求三十天前的日期
+        // var now = new Date();
+        // var day = 1000*60*60*24*30;
+        // var a = now.getTime();
+        // var b = new Date(a-day);
+        // console.log(b.toLocaleString());
+
+        // 距离 2019-01-01 00:00:00 还剩多少天多少小时多少分多少秒
+        // var now1 = new Date("2019-1-1 00:00:00");
+        // var now = new Date();
+        // var num1 = now1.getTime();
+        // var num = now.getTime();
+        // var ca = num1-num;
+        // function end() {
+        //     if ( ca>0) {
+        //         var d = Math.floor(ca / 1000 / 60 / 60 / 24);
+        //         var h = Math.floor(ca / 1000 / 60 / 60 % 24);
+        //         var m = Math.floor(ca / 1000 / 60 % 60);
+        //         var s = Math.floor(ca / 1000 % 60);
+        //     }
+        //     document.getElementById("dayDate").innerHTML = d+"天";
+        //     document.getElementById("hourDate").innerHTML = h+"时";
+        //     document.getElementById("minuteDate").innerHTML = m+"分";
+        //     document.getElementById("secondDate").innerHTML = s+"秒";
+        // }
+
+        // 按照如下方式格式化某个历史时间按照如下方式格式化某个历史时间【类似于QQ，微信聊天窗口中的刚刚，几天前等】
+        // window.onload=function(){
+        //     f();
+        // }
+        // var now1 = new Date("2018-12-19 16:34:00");
+        // var now = new Date();
+        // var num1 = now1.getTime();
+        // var num = now.getTime();
+        // function f() {
+        //     let a = num - num1;//时间戳的差
+        //     let day = now.getDate()-now1.getDate();//相差的日期数
+        //     let hou = now.getHours()-now1.getHours();//相差的小时数
+        //     let mou = now.getMinutes()-now1.getMinutes();//相差的分钟数
+        //     let b = new Date(a);//时间戳的差的时间
+        //     if(b.getFullYear()>1970){
+        //         let num3 = b.getFullYear()-1970;
+        //         console.log(num3+"年前");
+        //     }else if(b.getMonth()>=0&&day>0){
+        //         let num4 = b.getMonth()+1;
+        //         console.log(num4+"天前");
+        //     }else if (hou>0&&Math.abs(mou)>59){
+        //         console.log(hou+"小时前");
+        //     }else if (Math.abs(mou)>=1){
+        //         if (mou<0 && a>0){
+        //             let num6 = 60+mou;
+        //             console.log(num6+"分钟前");
+        //         }else if(mou>0){
+        //             console.log(mou+"分钟前");
+        //         }
+        //     }else{
+        //         console.log("刚刚");
+        //     }
+        // }
+
+        // window.onload = function (){
+        //     let arr = ["零","一","二","三","四","五","六","七","八","九","十"];
+        //     var now = new Date("2018-02-06");
+        //     let year = now.getFullYear();
+        //     let month = now.getMonth()+1;//02
+        //     let day = now.getDate();
+        //     let hour = now.getHours();
+        //     let minute = now.getMinutes();
+        //     let second = now.getSeconds();
+        //     let arr1 = [year,month,day,hour,minute,second];
+        //     let he = [];
+        //     for (let j=0;j<arr1.length ;j++){
+        //         let str = arr1[j].toString().split('');//2018
+        //         let year2 = [];
+        //         for (let i=0 ; i<str.length; i++){
+        //             year2[i] = arr[str[i]];
+        //         }
+        //         he[j] = year2.join('');
+        //     }
+        //     console.log(he[0]+"年 "+he[1]+"月 "+he[2]+"日 "+he[3]+"点 "+he[4]+"分 "+he[5]+"秒 ")
+        // }
+
+        // let a = document.querySelector(".aa");
+        // a.onmousedown=function (e){
+        //     let b = e.clientX;
+        //     let c = e.clientY;
+        //     let mousex = b-a.offsetLeft;
+        //     let mousey = c-a.offsetTop;
+        //     document.onmousemove = function (e) {
+        //         let nowx = e.clientX;
+        //         let nowy = e.clientY;
+        //         a.style.left = nowx-mousex+"px";
+        //         a.style.top = nowy-mousey+"px";
+        //     };
+        //     document.onmouseup = function () {
+        //         document.onmousemove = null;
+        //         // document.onmouseup = null;
+        //     }
+        // }
+
+        // tab
+        let btn = document.querySelectorAll("button");
+        let duan = document.querySelector("p");
+        for (let i=1; i<=btn.length; i++){
+            btn[i-1].onclick=function () {
+                for (let j=0; j<btn.length; j++){
+                    btn[j].style.backgroundColor="white";
+                    btn[j].style.color="black";
+                }
+                duan.innerHTML= i;
+                this.style.backgroundColor="green";
+                this.style.color="white";
+            }
+        }
+
+    </script>
+</body>
+</html>
