@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .img{
+            position: relative;
+            width: 830px;
+            height: 476px;
+            margin: 0 auto;
+        }
+        .img img{
+            position: absolute;
+            width: 800px;
+            height: 400px;
+            top: 0;
+            left: 0;
+        }
+        .img1{
+            z-index: 1;
+        }
+        .point{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #f5c813;
+        }
+        @keyframes pic {
+            from{z-index: 0;}
+            to{z-index: 3;}
+        }
+        .point:first-child:checked~ .img img:last-child{
+            animation: pic 1s linear;
+        }
+    </style>
+</head>
+<body>
+    <div class="img">
+        <img class="img1" src="img/snj2.jpg" alt="">
+        <img class="img2" src="img/suanx.png" alt="">
+        <img class="img3" src="img/sx.png" alt="">
+    </div>
+    <div class="point">1</div>
+    <div class="point">2</div>
+    <div class="point">3</div>
+</body>
+</html>
